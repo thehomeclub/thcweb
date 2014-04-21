@@ -1,2 +1,2 @@
-# Landing page built with Middleman and Foundation #
+# Landing page for The Home Club #
 
