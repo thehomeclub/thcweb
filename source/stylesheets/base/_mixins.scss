@@ -1,0 +1,43 @@
+$default-prefixes: webkit moz ms o;
+
+@mixin build-prefix-values($property, $value, $prefixes: $default-prefixes) {
+    @each $prefix in $prefixes {
+        -#{$prefix}-#{$property}: #{$value};
+    }
+    #{$property}: #{$value};
+} 
+
+
+@mixin animation($values...) {
+    @include build-prefix-values('animation', $values);
+}
+
+@mixin transform($values...) {
+    @include build-prefix-values('transform', $values);
+}
+
+@mixin transform-translate($values...) {
+    @include build-prefix-values('transform', $values);
+}
+
+@mixin animation-name-call ($name) {
+  -webkit-animation-name: $name;
+    animation-name: $name;
+}
+
+
+@mixin keyframes( $animationName )
+{
+    @-webkit-keyframes $animationName {
+        @content;
+    }
+    @-moz-keyframes $animationName {
+        @content;
+    }
+    @-o-keyframes $animationName {
+        @content;
+    }
+    @keyframes $animationName {
+        @content;
+    }
+}

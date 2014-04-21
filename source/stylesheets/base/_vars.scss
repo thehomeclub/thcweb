@@ -1,0 +1,101 @@
+//foundation overrides
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400);
+
+$body-font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !default;
+$body-font-weight: 300 !default;
+
+$header-font-weight: 300 !default;
+$paragraph-font-weight: 200 !default;
+$small-paragraph-font-weight: 300;
+
+$primary-color: #DA5757;
+
+$light-grey: #eee;
+
+@import "foundation/components/global";
+
+$body-letter-spacing: rem-calc(1);
+
+$main-content-padding: rem-calc(100) 0;
+
+$background-size: cover;
+$large-cover-size: rem-calc(700);
+$small-cover-size: rem-calc(600);
+$top-section-p-color: rgba(#fff, 0.8);
+$top-section-sub-font-size: rem-calc(20);
+$top-section-font-weight: 100;
+$top-section-p-color-small: rgba(#fff, 0.6);
+$top-section-font-weight-small: 300;
+$top-section-sub-font-size-small: rem-calc(18);
+
+$outer-container-display: table;
+$outer-container-dimension: 100%;
+$outer-container-visibility: hidden;
+
+$inner-container-display: table-cell;
+$inner-container-align: middle;
+$inner-container-text-align: center;
+
+$invite-font-size: rem-calc(16);
+$invite-border: rem-calc(1) solid rgba(#fff, 0.4);
+$invite-padding: rem-calc(15);
+
+$overlay-background: rgba(#000, 0.6);
+$overlay-height: 100%;
+
+$logo-max-width: rem-calc(300);
+$logo-margin: rem-calc(20);
+$logo-position: relative;
+$logo-max-width-small: rem-calc(250);
+
+$preview-text-align: center;
+$preview-visibility-hidden: hidden;
+$preview-p-text-align: left;
+
+$footer-padding: rem-calc(30) 0;
+$footer-border: rem-calc(1) solid $light-grey;
+
+$small-copy-text-align: center;
+$small-copy-padding: rem-calc(50);
+
+$large-icons-width: rem-calc(60);
+$large-icons-margin: rem-calc(20);
+
+$intro-text-align: center;
+$intro-padding: rem-calc(80);
+$intro-visibility: hidden;
+$intro-header-color: $primary-color;
+
+$benefits-border: rem-calc(1) solid $light-grey;
+$benefits-padding: rem-calc(80) 0 0;
+
+$mc-form-text-transform: uppercase;
+$mc-form-outline: 0;
+$mc-form-text-color: #fff;
+$mc-form-font-weight: 200;
+$mc-form-font-weight-small: 300;
+$mc-form-label-margin: rem-calc(10);
+$mc-form-label-error-line-height: rem-calc(30);
+$mc-font-size: rem-calc(16);
+
+$mc-form-box-shadow: none;
+$mc-form-border: 0;
+
+$social-float: right;
+$social-font-size: rem-calc(20);
+$social-float-small: none;
+$social-text-align-small: center;
+
+
+
+
+
+
+
+
+
+
+
+
+

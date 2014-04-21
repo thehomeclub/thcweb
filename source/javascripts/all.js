@@ -1,0 +1,5 @@
+//= require jquery/dist/jquery
+//= require foundation/js/foundation.min
+//= require jquery.ajaxchimp
+
+//= require app

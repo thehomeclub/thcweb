@@ -1,0 +1,82 @@
+.animate-spin {
+	@include animation(spin 2s infinite linear);
+	display: inline-block;
+	color: #fff;
+}
+
+.animated {
+  @include animation(1s both);
+}
+
+@include keyframes(spin) {
+    0% {
+        @include transform(rotate(0deg));
+    }
+    100% {
+        @include transform(rotate(359deg));
+    }
+}
+
+@include keyframes(fadeInDown) {
+    0% {
+    	opacity: 0;
+        @include transform-translate(translateY(-40px));
+    }
+
+    100% {
+        opacity: 1;
+        @include transform-translate(translateY(0));
+    }
+}
+
+
+
+.fadeInDown {
+  @include animation-name-call(fadeInDown);
+}
+
+@include keyframes(fadeInDownSmall) {
+    0% {
+    	opacity: 0;
+        @include transform-translate(translateY(-20px));
+    }
+
+    100% {
+        opacity: 1;
+        @include transform-translate(translateY(0));
+    }
+}
+
+
+
+.fadeInDownSmall {
+  @include animation-name-call(fadeInDownSmall);
+}
+
+@include keyframes(bounceIn) {
+    0% {
+    	opacity: 0;
+        @include transform-translate(scale(.3));
+    }
+
+    50% {
+        opacity: 1;
+        @include transform-translate(scale(1.05));
+    }
+
+    70% {
+        opacity: 1;
+        @include transform-translate(scale(.9));
+    }
+
+    100% {
+        opacity: 1;
+        @include transform-translate(scale(1));
+    }
+}
+
+
+
+.bounceIn {
+  @include animation-name-call(bounceIn);
+}

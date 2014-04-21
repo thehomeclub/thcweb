@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0 (7573) - http://www.bohemiancoding.com/sketch -->
+    <title>control</title>
+    <description>Created with Sketch.</description>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="control" sketch:type="MSArtboardGroup" stroke="#DA5757" stroke-width="8">
+            <g id="Control-copy" sketch:type="MSLayerGroup" transform="translate(44.000000, 8.000000)">
+                <rect id="Rectangle-4" sketch:type="MSShapeGroup" x="0" y="0" width="425" height="498" rx="13"></rect>
+                <g id="Line-+-Line-copy-+-Rectangle-5-+-Line-+-Line-copy-+-Rectangle-6-+-Line-+-Line-copy-+-Rectangle-7" transform="translate(98.000000, 58.000000)" sketch:type="MSShapeGroup">
+                    <g id="Line-+-Line-copy-+-Rectangle-5">
+                        <path d="M28,0.727272727 L28,127.272727" id="Line" stroke-linecap="square"></path>
+                        <path d="M28,157.727273 L28,284.272727" id="Line-copy" stroke-linecap="square"></path>
+                        <rect id="Rectangle-5" x="0" y="129" width="55" height="26"></rect>
+                    </g>
+                    <g id="Line-+-Line-copy-+-Rectangle-6" transform="translate(87.000000, 0.000000)">
+                        <path d="M28,0.725490196 L28,70" id="Line" stroke-linecap="square"></path>
+                        <path d="M27.5,96 L27.5,284.273077" id="Line-copy" stroke-linecap="square"></path>
+                        <rect id="Rectangle-5" x="0" y="71" width="55" height="26"></rect>
+                    </g>
+                    <g id="Line-+-Line-copy-+-Rectangle-7" transform="translate(174.000000, 0.000000)">
+                        <path d="M28,0.726923077 L28,187.597066" id="Line" stroke-linecap="square"></path>
+                        <path d="M28,214 L28,284.27551" id="Line-copy" stroke-linecap="square"></path>
+                        <rect id="Rectangle-5" x="0" y="188" width="55" height="26"></rect>
+                    </g>
+                </g>
+                <g id="Oval-6-+-Oval-6-copy-+-Oval-6-copy-2" transform="translate(99.000000, 389.000000)" sketch:type="MSShapeGroup">
+                    <circle id="Oval-6" cx="23" cy="23" r="23"></circle>
+                    <circle id="Oval-6-copy" cx="110" cy="23" r="23"></circle>
+                    <path d="M197,46 C209.70255,46 220,35.7025499 220,23 C220,10.2974501 209.70255,0 197,0 C184.29745,0 174,10.2974501 174,23 C174,35.7025499 184.29745,46 197,46 Z" id="Oval-6-copy-2"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

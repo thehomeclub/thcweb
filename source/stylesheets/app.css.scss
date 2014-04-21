@@ -1,0 +1,209 @@
+@import "base/vars";
+@import "base/mixins";
+@import "base/animate";
+@import "base/icons";
+
+
+@import "settings";
+// @import "foundation.scss";
+@import "foundation/components/grid";
+@import "foundation/components/buttons";
+@import "foundation/components/clearing";
+@import "foundation/components/forms";
+@import "foundation/components/type";
+
+
+body {
+  letter-spacing: $body-letter-spacing;
+
+}
+
+p {
+  @media #{$small-only}  {
+    font-weight: $small-paragraph-font-weight;
+   }
+}
+
+.main-content {
+  @include grid-row;
+  padding: $main-content-padding;
+}
+
+.top-section {
+  width: 100%;
+  background: url(../images/london.jpg);
+  background-size: $background-size;
+  height: $large-cover-size;
+  background-attachment: fixed;
+  @media #{$small-only}  {
+    height: $small-cover-size;
+    background: url(../images/london@mob.jpg);
+    background-size: $background-size;
+    background-attachment: relative;
+  }
+  & p {
+    @include grid-column($columns:12, $center: true);
+    color: $top-section-p-color;
+    font-size: $top-section-sub-font-size;
+    font-weight: $top-section-font-weight;
+    @media #{$small-only}  {
+      color: $top-section-p-color-small;
+      font-weight: $top-section-font-weight-small;
+      font-size: $top-section-sub-font-size-small;
+    }
+  }
+}
+
+.overlay {
+  background: $overlay-background;
+  height: $overlay-height;
+  width: $overlay-height;
+}
+
+
+#invite {
+  @include grid-column($columns:2, $center: true);
+  color: #fff;
+  font-size: $invite-font-size;
+  border-top: $invite-border;
+  padding-top: $invite-padding;
+   @media #{$small-only}  {
+    @include grid-column($columns:8, $center: true);
+   }
+}
+
+
+.logo {
+  max-width: $logo-max-width;
+  margin-bottom: $logo-margin;
+  position: $logo-position;
+   @media #{$small-only}  {
+    max-width: $logo-max-width-small;   
+  }
+}
+
+.outer-container {
+  display: $outer-container-display;
+  width: $outer-container-dimension;
+  height: $outer-container-dimension;
+  visibility: $outer-container-visibility;
+}
+
+.inner-container {
+    display: $inner-container-display;
+    vertical-align:$inner-container-align;
+    text-align: $inner-container-text-align;
+}
+
+
+.preview {
+   @include grid-column($columns:4);
+   text-align: $preview-text-align;
+   visibility: $preview-visibility-hidden;
+   & p {
+    text-align: $preview-p-text-align;
+   }
+}
+
+footer {
+  padding: $footer-padding;
+  border-top: $footer-border;
+}
+
+.footer-content {
+  @include grid-row;
+}
+
+
+
+.copy {
+  @media #{$small-only} {
+    text-align: $small-copy-text-align;
+    padding: $small-copy-padding;
+   }
+}
+
+
+.preview,
+.copy {
+  @media #{$small-only} {
+    @include grid-column($columns:12);
+   }
+}
+
+
+.icons {
+  width: $large-icons-width;
+  margin-bottom: $large-icons-margin;
+}
+
+
+.intro {
+  @include grid-column($columns:8, $center: true);
+  text-align: $intro-text-align;
+  padding-bottom: $intro-padding;
+  visibility: $intro-visibility;
+  @media #{$small-only} {
+    @include grid-column($columns:12, $center: true);
+  }
+  & h2 {
+    color: $intro-header-color;
+  }
+
+}
+
+.benefits {
+  border-top: $benefits-border;
+  padding: $benefits-padding;
+}
+
+#mc-form {
+  @include grid-column($columns:4, $center: true);
+  @media #{$small-only} {
+    @include grid-column($columns:12, $center: true);
+  }
+  & button {
+    @include grid-column($columns:2);
+    text-transform: $mc-form-text-transform;
+    outline: $mc-form-outline;
+     @media #{$small-only} {
+      @include grid-column($columns:3);
+     }
+  }
+  & label {
+    color: $mc-form-text-color;
+    font-weight: $mc-form-font-weight;
+    margin-bottom: $mc-form-label-margin;
+    @media #{$small-only} {
+      font-weight: $mc-form-font-weight-small;
+
+    }
+  }
+  & label.error {
+    background: $primary-color;
+    line-height: $mc-form-label-error-line-height;
+    @include radius(3px);
+  }
+}
+
+#mc-email {
+  @include grid-column($columns:10);
+  @include radius(3px 0 0 3px);
+  box-shadow: $mc-form-box-shadow;
+  border: $mc-form-border;
+  font-size: rem-calc(16);
+  @media #{$small-only} {
+    @include grid-column($columns:9);
+  }
+}
+
+.social {
+  float: $social-float;
+  font-size: $social-font-size;
+  @media #{$small-only} {
+    float: $social-float-small;
+    text-align: $social-text-align-small;
+  }
+}
+
+
