@@ -1,2 +1,2 @@
-# Landing page for The Home Club #
+# Landing page for The Property Club #
 
